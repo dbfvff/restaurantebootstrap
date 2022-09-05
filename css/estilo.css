@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cormorant Garamont', serif;
+}
+
+.res_navbar{
+    background-color: rgba(255, 255, 255, 0,7) !important;
+}
+
+.res_navbar div, res_navbar ul{
+    background-color: transparent !important;
+}
+
+.rest_cont_sec_1{
+    padding: 10%;
+}
+
+.rest_cont_sec_1_link{
+    padding:  5%;
+}
+
+.rest_cont_sec_1_link a{
+    width: 200px;
+}
+
+.rest_cont_sec_1 hr{
+    border-top: 1px solid rgba(1, 1, 1, 0, 3);
+}
+
+.res_cont_footer{
+    background-color: rgba(1, 1, 1, 0,  7);
+    padding: 10%;
+    color: #fff);
+    margin-top: 100px;
+}
+
+.res_cont_footer a{
+    color: rgb(44, 1, 1);
+    text-decoration: none;
+    display: block;
+}
+
+.res_cont_img_footer{
+   padding: 5%; 
+}

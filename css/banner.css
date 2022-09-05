@@ -1,0 +1,119 @@
+.res_cont_banner{
+    height: 100vh;/*toma el total del alto de la pantalla*/
+    background-attachment: fixed;/*la imagen de fondo queda fija*/
+    background-position: center;/*imagen centrada*/
+    background-repeat: no-repeat;/*imagen de fondo no repetida*/
+    background-size: cover;/*valor original de la imagen*/
+    background-image: url("../img/fondo.png");
+}
+
+.res_sobra{
+    position: absolute;/*parametro flotante, sin posicion en particular*/
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);/*para que funcione en otros navegadores*/
+    -webkit-transform: translate(-50%, -50%);/*para que funcione en otros navegadores*/
+    transform: translate(-50%, -50%);/*se traslada 50 de izquierda a derecha y de arriba a abajo*/
+    padding: 20px;/*contenido separados del borde 20px*/
+    width: 80%;/*sombreado de 80%*/
+    text-align: center;/*texto alineado central*/
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    margin: auto;
+}
+
+.res_sobra hr{
+    border-top: 1px solid #fff;
+}
+
+.res_sobra h1{
+    font-size: 8vw;/*redimensionar*/
+    margin-bottom: 10px;
+}
+
+.res_sobra p{
+    font-size: 4vw;/*redimensionar*/
+    margin-bottom: 10px;
+}
+
+.res_cont_banner_link{
+    margin: 15px;
+    position: relative;
+}
+
+.res_cont_banner_link a{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.res_cont_banner_link a:hover{
+    background-color: #fff;
+    color: #111;
+}
+
+.res_banner_link{
+    opacity: 0;
+    animation: res_keyframes_aparecer_de_arriba 1s;/*animacion dura 1s*/
+    -webkit-animation: res_keyframes_aparecer_de_arriba 1s;/*todos los navegadores*/
+    animation-fill-mode:  forwards;/*se mantenga mediante forwards*/
+}
+
+.res_banner_link_1{
+    opacity: 0;
+    animation: res_keyframes_aparecer_de_arriba 1s;/*animacion dura 1s*/
+    -webkit-animation: res_keyframes_aparecer_de_arriba 1s;/*todos los navegadores*/
+    animation-fill-mode:  forwards;/*se mantenga mediante forwards*/
+    animation-delay: 0.5s;
+}
+
+.res_banner_link_2{
+    opacity: 0;
+    animation: res_keyframes_aparecer_de_arriba 1s;/*animacion dura 1s*/
+    -webkit-animation: res_keyframes_aparecer_de_arriba 1s;/*todos los navegadores*/
+    animation-fill-mode:  forwards;/*se mantenga mediante forwards*/
+    animation-delay: 1s;
+}
+.res_banner_link_3{
+    opacity: 0;
+    animation: res_keyframes_aparecer_de_arriba 1s;/*animacion dura 1s*/
+    -webkit-animation: res_keyframes_aparecer_de_arriba 1s;/*todos los navegadores*/
+    animation-fill-mode:  forwards;/*se mantenga mediante forwards*/
+    animation-delay: 1.5s;
+}
+
+.res_banner_link_4{
+    opacity: 0;
+    animation: res_keyframes_aparecer_de_arriba 1s;/*animacion dura 1s*/
+    -webkit-animation: res_keyframes_aparecer_de_arriba 1s;/*todos los navegadores*/
+    animation-fill-mode:  forwards;/*se mantenga mediante forwards*/
+    animation-delay: 2s;
+}
+
+.rest_cont_banner_sec_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/fondoinicio.png");
+    position: relative;
+    padding:  10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.rest_cont_banner_sec_3 .row{
+    background-color: rgba(1, 1, 1, 0,7);
+    color: rgb(16, 248, 12);
+    padding: 2%;
+}
+
+.rest_cont_img{
+    padding: 5%;
+}
