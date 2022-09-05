@@ -6,6 +6,16 @@
     background-size: cover;/*valor original de la imagen*/
     background-image: url("../img/fondo.png");
 }
+
+.res_cont_banner1{
+    height: 100vh;/*toma el total del alto de la pantalla*/
+    background-attachment: fixed;/*la imagen de fondo queda fija*/
+    background-position: center;/*imagen centrada*/
+    background-repeat: no-repeat;/*imagen de fondo no repetida*/
+    background-size: cover;/*valor original de la imagen*/
+    background-image: url("../img/pos6.jpg");
+}
+
 .res_cont_banner2{
     height: 100vh;/*toma el total del alto de la pantalla*/
     background-attachment: fixed;/*la imagen de fondo queda fija*/
@@ -21,7 +31,16 @@
     background-position: center;/*imagen centrada*/
     background-repeat: no-repeat;/*imagen de fondo no repetida*/
     background-size: cover;/*valor original de la imagen*/
-    background-image: url("../img/adentro.png");
+    background-image: url("../img/platos.jpg");
+}
+
+.res_cont_banner4{
+    height: 100vh;/*toma el total del alto de la pantalla*/
+    background-attachment: fixed;/*la imagen de fondo queda fija*/
+    background-position: center;/*imagen centrada*/
+    background-repeat: no-repeat;/*imagen de fondo no repetida*/
+    background-size: cover;/*valor original de la imagen*/
+    background-image: url("../img/fondoinicio.png");
 }
 
 .res_sobra{
