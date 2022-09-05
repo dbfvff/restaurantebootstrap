@@ -6,6 +6,23 @@
     background-size: cover;/*valor original de la imagen*/
     background-image: url("../img/fondo.png");
 }
+.res_cont_banner2{
+    height: 100vh;/*toma el total del alto de la pantalla*/
+    background-attachment: fixed;/*la imagen de fondo queda fija*/
+    background-position: center;/*imagen centrada*/
+    background-repeat: no-repeat;/*imagen de fondo no repetida*/
+    background-size: cover;/*valor original de la imagen*/
+    background-image: url("../img/carta1.jpg");
+}
+
+.res_cont_banner3{
+    height: 100vh;/*toma el total del alto de la pantalla*/
+    background-attachment: fixed;/*la imagen de fondo queda fija*/
+    background-position: center;/*imagen centrada*/
+    background-repeat: no-repeat;/*imagen de fondo no repetida*/
+    background-size: cover;/*valor original de la imagen*/
+    background-image: url("../img/adentro.png");
+}
 
 .res_sobra{
     position: absolute;/*parametro flotante, sin posicion en particular*/
