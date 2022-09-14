@@ -97,7 +97,7 @@
     opacity: 0;
     animation: res_keyframes_aparecer_de_arriba 1s;/*animacion dura 1s*/
     -webkit-animation: res_keyframes_aparecer_de_arriba 1s;/*todos los navegadores*/
-    animation-fill-mode:  forwards;/*se mantenga mediante forwards*/
+    animation-fill-mode:  forwards;/*se mantenga mediante forwards  hacia delante*/ 
 }
 
 .res_banner_link_1{

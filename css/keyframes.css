@@ -1,4 +1,4 @@
-@keyframes res_keyframes_aparecer_de_arriba{
+@keyframes res_keyframes_aparecer_de_arriba{ /*efectos*/
     from{
         opacity: 0;
         top: -150px;
@@ -9,7 +9,7 @@
     }
 }
 
-@-webkit-keyframes res_keyframes_aparecer_de_arriba{
+@-webkit-keyframes res_keyframes_aparecer_de_arriba{ /*efectos*/
     from{
         opacity: 0;
         top: -150px;
